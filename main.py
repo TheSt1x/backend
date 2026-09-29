@@ -23,7 +23,7 @@ def submit():
     with open(DATA_FILE, "a", encoding="utf-8") as f:
         f.write(text + "\n")
 
-    return jsonify({"status": "ok", "saved": text}), 200
+    return jsonify({"status": "ok", "received": text}), 200
 
 
 if __name__ == "__main__":
