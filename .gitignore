@@ -1,0 +1,16 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Python-кеш
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Рабочий файл бэкенда
+data.txt
+
+# IDE
+.idea/
+.vscode/
